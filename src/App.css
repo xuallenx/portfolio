@@ -4,14 +4,14 @@ body {
 }
 
 .root {
-  background-color:#F5F5DC;
+  background-color: white;
   padding: 0; 
   min-height: 100vh;
   max-width: 100vw;
 }
 
 .info {
-  background-color: #F5F5DC;
+  background-color: black;
 
   padding: 30px;
   border: 0;
@@ -39,7 +39,7 @@ body {
 }
 
 .name {
-  color: black;
+  color: white;
   margin: 0;
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
@@ -48,6 +48,7 @@ body {
 }
 
 .location {
+  color: white;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 
@@ -63,7 +64,7 @@ body {
 
 .contactinfo {
   margin: 0;
- background-color: #F5F5DC;
+ background-color: black;
  font-size: 1.4em;
  font-family: Arial, Helvetica, sans-serif;
  color: black;
@@ -84,7 +85,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 10px;
   font-size: 1em;
-  color: black;
+  color: white;
 
 
   display: flex;
@@ -99,11 +100,19 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 10000px;
   font-size: 7em;
-  color: black;
+  color: white;
   padding-top: 1cm;
 
   display: flex;
 }
+
+{/*}.bio{
+  color: white;
+  font-size: 30px;
+  position: relative;
+  left: 800px;
+  top: -200px;
+}*/}
 
 .titlemain{
   color: green;
@@ -111,11 +120,30 @@ body {
 
 .picture{
   color: green;
-  size-adjust: 0.000000001%;
+  size-adjust: 100%;
   width: 35em;
   height: 20em;
   position: relative;
   left: 70px;
   top: -100px;
+
+}
+
+.arrow{
+  
+  position: relative;
+  left: 770px;
+  top: -670px;
+  width: 5em;
+  height: 5em;
+
+}
+
+.arrow-left-bottom{
+  position: relative;
+  width: 5em;
+  height: 5em;
+  top: -250px;
+  left: 130px;
 
 }

@@ -5,16 +5,16 @@ const Navbar = (props) => {
     const links = [
         {to: "/about", text: 'ABOUT'},
         {to: "/projects", text: 'PROJECT'},
-        {to: "/contacts", text: 'CONTACT'},
+        {to: "/contact", text: 'CONTACT'},
     ];
 
     let linksComponent = links.map( (link) => {
-        let textColor = 'black';
+        let textColor = 'white';
         if (link.text === props.selected) {
             textColor = 'red';
         }
 
-        return <Link to={link.to} style={{ color: textColor}}>{link.text}|</Link> 
+        return <Link to={link.to} style={{ color: textColor}}>|{link.text}|</Link> 
     });
     
     return (
